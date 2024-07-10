@@ -1,31 +1,36 @@
-#main-title {
-  background-color: lightgray;
-  color: darkblue;
-  font-size: 36px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+body {
+  background: #ada0a6;
+  color: #293132;
+}
+
+.card {
+  background: #ffffff;
+  width: 400px;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Monaco, "Lucida Console", sans-serif;
+  background-color: #f9e7e7;
+  padding: 8px 16px;
   text-align: center;
 }
 
-.recipe {
-  color: darkgreen;
-}
-
-.title {
-  background-color: black;
-  color: aliceblue;
-  font-size: 28px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-h2 {
-  font-size: 20px;
-  color: darkgrey;
-}
-
-p,
-li {
+.recipes {
+  background: #f9e7e7;
+  padding: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  background-color: palegoldenrod;
-  color: mediumblue;
+  font-weight: bold;
+  width: auto;
+  margin: 0 auto;
+}
+
+li {
+  margin: 4px 0;
+}
+
+a {
+  text-decoration: none;
 }
